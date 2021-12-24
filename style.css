@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: lightgray;
+}
+#app{
+  width: 250px;
+  height: 250px;
+  background-color: black;
+}
+.btn-section{
+  display: flex;
+  justify-content: around;
+  align-items: start;
+  margin-top: 20px;
+}
+.btn{
+  padding: 1px 5px; 
+  margin-right: 3px;
+  font-weight: 900;
+}
+.interval-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#rgbColor{
+  font-size: 25px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
